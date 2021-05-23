@@ -20,3 +20,5 @@ const onScroll = () => {
         top: document.body.dataset.scrollY
     });
 };
+
+export default {offScroll, onScroll};
